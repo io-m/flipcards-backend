@@ -21,6 +21,8 @@ You can use any of the following libraries to fetch data:
 
 1. **Create a new Next.js project**:
 
+   - Demonstrate understanding of using nextjs by utilizing nextjs' features.
+
    ```bash
    npx create-next-app@latest flipcards-frontend
    cd flipcards-frontend
@@ -43,8 +45,10 @@ You can use any of the following libraries to fetch data:
    - Ensure the gallery is responsive and works well on various screen sizes, including mobile, tablet, and desktop devices.
 
 3. **Flip Card Animation**:
-   - Implement a click event on each card that triggers an animation (rotate in any direction) to reveal the description on the back side of the card.
+   - Implement a click event on each card that triggers an animation (rotate in specific direction, depending on the click area) to reveal the description on the back side of the card.
    - You have the freedom to style the cards as you like, but focus on the rotating animations.
+      1. Make the flipcards rotating based on area click.
+      2. Make diagonal flip as well.
 
 4. **Loading State**:
    - Display a loading indicator while fetching the card data.
